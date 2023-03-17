@@ -92,21 +92,31 @@
 }
 
 /* ******************************* */
-/* WHAT IS IC SECTION*/
+/* HOW IC WORKS SECTION*/
 /* ******************************* */
 
 .section-how {
   padding: 9.6rem 0;
 }
 
-.how-card {
-  border: 1px solid #000;
-}
-
-.how-card-img-box {
-  /* padding: 0.8rem 1.6rem; */
-}
-
-.how-card-img {
+.img-how {
   width: 100%;
+  border-radius: 9px;
+}
+
+.how-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.how-list li {
+  font-size: 2.4rem;
+}
+
+.how-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
