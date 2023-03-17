@@ -1,0 +1,56 @@
+/* ******************************* */
+/* HEADER */
+/* ******************************* */
+
+.header {
+  display: flex;
+  padding: 0.8rem 0.4rem;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f8f9fa;
+}
+
+.logo-header {
+  height: 6.4rem;
+}
+
+/* ******************************* */
+/* NAVIGATION */
+/* ******************************* */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+  font-size: 1.8rem;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #6d48da;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 0.8rem 1.6rem;
+  background-color: #8662f3;
+  color: #111;
+  border-radius: 5px;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  color: #fff;
+}
