@@ -4,7 +4,7 @@
 
 .header {
   display: flex;
-  padding: 0.8rem 0.4rem;
+  padding: 1.2rem 2.4rem;
   justify-content: space-between;
   align-items: center;
 
@@ -53,4 +53,40 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   color: #fff;
+}
+
+/* ******************************* */
+/* HERO SECTION */
+/* ******************************* */
+
+.section-hero {
+  background-color: #f2eefe;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.hero-description {
+  font-size: 6.2rem;
+  letter-spacing: -0.5px;
+
+  margin-bottom: 4.8rem;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 20px;
 }

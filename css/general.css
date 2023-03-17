@@ -24,7 +24,7 @@
     
     - Primary: #7950f2
      
-    - Tints: #8662f3 
+    - Tints: #8662f3 #f2eefe
     - Shades: #6d48da 
     - Accents:
     - Greys:
@@ -73,3 +73,19 @@ body {
 /* ******************************* */
 /* GENERAL REUSABLE COMPONENTS */
 /* ******************************* */
+
+strong {
+  font-weight: 400;
+  color: #7950f2;
+}
+
+.btn-cta:link,
+.btn-cta:visited {
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  background-color: #8662f3;
+  color: #fff;
+  font-size: 2.4rem;
+  border-radius: 12px;
+}
