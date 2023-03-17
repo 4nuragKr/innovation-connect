@@ -90,3 +90,23 @@
   width: 100%;
   border-radius: 20px;
 }
+
+/* ******************************* */
+/* WHAT IS IC SECTION*/
+/* ******************************* */
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.how-card {
+  border: 1px solid #000;
+}
+
+.how-card-img-box {
+  /* padding: 0.8rem 1.6rem; */
+}
+
+.how-card-img {
+  width: 100%;
+}
